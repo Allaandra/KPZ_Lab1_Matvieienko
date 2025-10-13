@@ -31,13 +31,16 @@
     Розділ великих змін на малі коміти
 7. Коміт змін  
     <img src="./screenshots/Step7.png" alt="Step 7" width="400"/>  
-    
+    Коміти наступних оновлень з коментарями
 8. Зміни, а не файли  
-    <img src="./screenshots/Step8.png" alt="Step 8" width="400"/>
+    <img src="./screenshots/Step8.png" alt="Step 8" width="400"/>  
+    Git відстежує зміни, а не просто файли
 9. Історія проєкту  
-    <img src="./screenshots/Step9.png" alt="Step 9" width="400"/>
+    <img src="./screenshots/Step9.png" alt="Step 9" width="400"/>  
+    Перегляд історії комітів командою git log
 10. Отримання старих версій  
-    <img src="./screenshots/Step10.png" alt="Step 10" width="400"/>
+    <img src="./screenshots/Step10.png" alt="Step 10" width="400"/>  
+    Повернення робочої директорії до будь-якого попереднього стану
 11. Створення тегів версій  
     <img src="./screenshots/Step11.png" alt="Step 11" width="400"/>
 12. Скасування локальних змін (до індексації)  
