@@ -19,15 +19,19 @@
     Створення нового каталогу та ініціалізація репозиторію командою git init
 3. Перевірка стану  
     <img src="./screenshots/Step3.png" alt="Step 3" width="400"/>  
-    
+    Команда git status, щоб дізнатися поточний стан репозиторія
 4. Внесення змін  
-    <img src="./screenshots/Step4.png" alt="Step 4" width="400"/>
+    <img src="./screenshots/Step4.png" alt="Step 4" width="400"/>  
+    Відстежування стану робочої директорії та її змін
 5. Індексація змін  
-    <img src="./screenshots/Step5.png" alt="Step 5" width="400"/>
+    <img src="./screenshots/Step5.png" alt="Step 5" width="400"/>  
+    Додавання файлів у staging area за допомогою git add .
 6. Індексація та коміт  
-    <img src="./screenshots/Step6.png" alt="Step 6" width="400"/>
+    <img src="./screenshots/Step6.png" alt="Step 6" width="400"/>  
+    Розділ великих змін на малі коміти
 7. Коміт змін  
-    <img src="./screenshots/Step7.png" alt="Step 7" width="400"/>
+    <img src="./screenshots/Step7.png" alt="Step 7" width="400"/>  
+    
 8. Зміни, а не файли  
     <img src="./screenshots/Step8.png" alt="Step 8" width="400"/>
 9. Історія проєкту  
