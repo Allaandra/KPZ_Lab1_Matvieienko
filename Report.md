@@ -7,49 +7,100 @@
 
 ## Виконання роботи
 
-Під час виконання було повністю пройдено **40 кроків** курсу [Git How To](https://githowto.com/uk), які охоплюють такі теми:
+Під час виконання було повністю пройдено **42 кроків** курсу (2 частини) [Git How To](https://githowto.com/uk):
 
-1. Ініціалізація репозиторію (`git init`)
-![Step 1](./screenshots/step1.png)
-2. Додавання файлів (`git add`)
-3. Створення комітів (`git commit`)
-4. Перегляд історії (`git log`)
-5. Перегляд статусу (`git status`)
-6. Перейменування файлів (`git mv`)
-7. Видалення файлів (`git rm`)
-8. Перегляд змін (`git diff`)
-9. Скасування змін у файлах (`git checkout`)
-10. Скасування індексації (`git reset`)
-11. Робота з гілками (`git branch`)
-12. Перехід між гілками (`git checkout <branch>`)
-13. Злиття гілок (`git merge`)
-14. Вирішення конфліктів злиття
-15. Видалення гілок (`git branch -d`)
-16. Перегляд графу комітів (`git log --graph`)
-17. Використання тегів (`git tag`)
-18. Перегляд тегів (`git show <tag>`)
-19. Видалення тегів (`git tag -d`)
-20. Робота з віддаленим репозиторієм (`git remote add`)
-21. Відправка змін (`git push`)
-22. Отримання змін (`git pull`)
-23. Клонування репозиторію (`git clone`)
-24. Перегляд віддалених репозиторіїв (`git remote -v`)
-25. Відправка тегів (`git push --tags`)
-26. Відновлення видалених файлів (`git checkout -- <file>`)
-27. Перегляд різниці між гілками (`git diff branch1..branch2`)
-28. Перегляд короткої інформації (`git log --oneline`)
-29. Відміна останнього коміту (`git reset --soft HEAD~1`)
-30. Відміна змін у робочій директорії (`git checkout .`)
-31. Відміна змін у staging area (`git reset HEAD <file>`)
-32. Перегляд змін у staging area (`git diff --cached`)
-33. Відміна merge (`git merge --abort`)
-34. Перегляд історії для файлу (`git log <file>`)
-35. Пошук по історії (`git log -S <text>`)
-36. Перегляд автора рядка (`git blame <file>`)
-37. Відміна видалення файлу (`git checkout HEAD <file>`)
-38. Робота з кількома віддаленими (`git remote add <name> <url>`)
-39. Відправка в конкретну гілку (`git push origin <branch>`)
-40. Відновлення попередньої версії файлу (`git checkout <commit> -- <file>`)
+### Частина 1. Основи Git:
+
+1. Фінальні приготування  
+    <img src="./screenshots/Step1.png" alt="Step 1" width="400"/>  
+    Повна готовність до роботи з Git. Встановлємо ім'я та адресу електронної пошти, назву головної гілки та коректну обробку закінчень рядків
+2. Створення проєкту  
+    <img src="./screenshots/Step2.png" alt="Step 2" width="400"/>  
+    Створення нового каталогу та ініціалізація репозиторію командою git init
+3. Перевірка стану  
+    <img src="./screenshots/Step3.png" alt="Step 3" width="400"/>  
+    
+4. Внесення змін  
+    <img src="./screenshots/Step4.png" alt="Step 4" width="400"/>
+5. Індексація змін  
+    <img src="./screenshots/Step5.png" alt="Step 5" width="400"/>
+6. Індексація та коміт  
+    <img src="./screenshots/Step6.png" alt="Step 6" width="400"/>
+7. Коміт змін  
+    <img src="./screenshots/Step7.png" alt="Step 7" width="400"/>
+8. Зміни, а не файли  
+    <img src="./screenshots/Step8.png" alt="Step 8" width="400"/>
+9. Історія проєкту  
+    <img src="./screenshots/Step9.png" alt="Step 9" width="400"/>
+10. Отримання старих версій  
+    <img src="./screenshots/Step10.png" alt="Step 10" width="400"/>
+11. Створення тегів версій  
+    <img src="./screenshots/Step11.png" alt="Step 11" width="400"/>
+12. Скасування локальних змін (до індексації)  
+    <img src="./screenshots/Step12.png" alt="Step 12" width="400"/>
+13. Скасування проіндексованих змін (перед комітом)  
+    <img src="./screenshots/Step13.png" alt="Step 13" width="400"/>
+14. Скасування комітів  
+    <img src="./screenshots/Step14.png" alt="Step 14" width="400"/>
+15. Видалення комітів з гілки  
+    <img src="./screenshots/Step15.png" alt="Step 15" width="400"/>
+16. Видалення тегу oops  
+    <img src="./screenshots/Step16.png" alt="Step 16" width="400"/>
+17. Внесення змін до останнього коміту (--amend)  
+    <img src="./screenshots/Step17.png" alt="Step 17" width="400"/>
+18. Створення гілки  
+    <img src="./screenshots/Step18.png" alt="Step 18" width="400"/>
+19. Перемикання гілок  
+    <img src="./screenshots/Step19.png" alt="Step 19" width="400"/>
+20. Переміщення файлів  
+    <img src="./screenshots/Step20.png" alt="Step 20" width="400"/>
+21. Зміни в гілці main  
+    <img src="./screenshots/Step21.png" alt="Step 21" width="400"/>
+22. Перегляд розбіжних гілок  
+    <img src="./screenshots/Step22.png" alt="Step 22" width="400"/>
+23. Злиття  
+    <img src="./screenshots/Step23.png" alt="Step 23" width="400"/>
+24. Створення конфлікту  
+    <img src="./screenshots/Step24.png" alt="Step 24" width="400"/>
+25. Вирішення конфліктів  
+    <img src="./screenshots/Step25.png" alt="Step 25" width="400"/>
+26. rebase проти merge  
+    <img src="./screenshots/Step26.png" alt="Step 26" width="400"/>
+27. Відкочування гілки style  
+    <img src="./screenshots/Step27.png" alt="Step 27" width="400"/>
+28. Перебазування  
+    <img src="./screenshots/Step28.png" alt="Step 28" width="400"/>
+29. Злиття в гілку main  
+    <img src="./screenshots/Step29.png" alt="Step 29" width="400"/>
+
+### Частина 2. Декілька репозиторіїв:
+
+30. Клонування репозиторіїв  
+    <img src="./screenshots/Step30.png" alt="Step 30" width="400"/>
+31. Перегляд клонованого репозиторія  
+    <img src="./screenshots/Step31.png" alt="Step 31" width="400"/>
+32. Що таке origin?  
+    <img src="./screenshots/Step32.png" alt="Step 32" width="400"/>
+33. Віддалені гілки  
+    <img src="./screenshots/Step33.png" alt="Step 33" width="400"/>
+34. Зміна оригінального репозиторія  
+    <img src="./screenshots/Step34.png" alt="Step 34" width="400"/>
+35. Підтягування змін  
+    <img src="./screenshots/Step35.png" alt="Step 35" width="400"/>
+36. Злиття підтягнутих змін  
+    <img src="./screenshots/Step36.png" alt="Step 36" width="400"/>
+37. Додавання гілки відстеження  
+    <img src="./screenshots/Step37.png" alt="Step 37" width="400"/>
+38. Чисті репозиторії  
+    <img src="./screenshots/Step38.png" alt="Step 38" width="400"/>
+39. Додавання віддаленого репозиторія  
+    <img src="./screenshots/Step39.png" alt="Step 39" width="400"/>
+40. Відправка змін  
+    <img src="./screenshots/Step40.png" alt="Step 40" width="400"/>
+41. Підтягування спільних змін  
+    <img src="./screenshots/Step41.png" alt="Step 41" width="400"/>
+42. Розміщення ваших Git репозиторіїв  
+    <img src="./screenshots/Step42.png" alt="Step 42" width="400"/>
 
 
 ---
